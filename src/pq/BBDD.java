@@ -56,11 +56,11 @@ public class BBDD {
 		return peliculas;
 	}
 
-	public void insertarDatos(HashMap<String, String> pelis) {
+	public void insertarDatos(HashMap<String, String> peliculas) {
 
 		String titulo, director;
 
-		for (HashMap.Entry<String, String> entry : pelis.entrySet()) {
+		for (HashMap.Entry<String, String> entry : peliculas.entrySet()) {
 			titulo = entry.getKey();
 			director = entry.getValue();
 
