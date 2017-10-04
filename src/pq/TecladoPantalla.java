@@ -37,8 +37,8 @@ public class TecladoPantalla {
 		while (it.hasNext()) {
 
 			Map.Entry e = (Map.Entry) it.next();
-			System.out.println("PELICULA " + numero);
-			System.out.println("Título: " + e.getKey() + ". Director: " + e.getValue());
+			System.out.println("Pelicula " + numero);
+			System.out.println("Título: " + e.getKey() + "| Director: " + e.getValue());
 			System.out.println();
 			numero++;
 		}
