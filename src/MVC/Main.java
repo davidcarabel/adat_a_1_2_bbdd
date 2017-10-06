@@ -1,4 +1,4 @@
-package pq;
+package MVC;
 
 import java.util.*;
 
@@ -12,10 +12,10 @@ public class Main {
 		Scanner scan = new Scanner(System.in);
 
 		System.out
-				.println("Para leer la información del fichero escribe 1." + "\nPara escribir en el fichero escribe 2."
-						+ "\nPara leer la información de la BBDD escribe 3." + "\nPara escribir en la BBDD escribe 4."
-						+ "\nPara importar al fichero el contenido de la BBDD escribe 5."
-						+ "\nPara importar a la BBDD el contenido del fichero escribe 6.");
+				.println("Para leer la información del fichero escribe el numero 1." + "\nPara escribir en el Fichero escribe el numero 2."
+						+ "\nPara leer la información de la BBDD escribe el numero 3." + "\nPara escribir en la BBDD escribe el numero 4."
+						+ "\nPara importar al fichero el contenido de la BBDD escribe el numero 5."
+						+ "\nPara importar a la BBDD el contenido del fichero escribe el numero 6.");
 
 		int opcion = scan.nextInt();
 		scan.nextLine();
@@ -46,7 +46,7 @@ public class Main {
 			break;
 
 		default:
-			System.err.println("NUMERO INCORRECTO");
+			System.err.println("Seleccione una opción valida :| ");
 			break;
 		}
 

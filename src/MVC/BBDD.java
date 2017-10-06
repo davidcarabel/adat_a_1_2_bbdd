@@ -1,4 +1,4 @@
-package pq;
+package MVC;
 
 import java.sql.*;
 import java.util.HashMap;
@@ -26,7 +26,7 @@ public class BBDD {
 			propiedades.load(entrada);
 			conexion = DriverManager.getConnection(propiedades.getProperty("url"), propiedades.getProperty("login"),
 					"");
-			// conexion = DriverManager.getConnection(url, login, pwd);
+
 			System.out.println("Conectado con éxito.");
 			entrada.close();
 		} catch (Exception ex) {

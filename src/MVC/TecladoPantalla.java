@@ -1,4 +1,4 @@
-package pq;
+package MVC;
 
 import java.util.*;
 
@@ -9,7 +9,7 @@ public class TecladoPantalla {
 		Scanner scan = new Scanner(System.in);
 		HashMap<String, String> mapa = new HashMap<String, String>();
 		int nPelis = 0;
-		System.out.println("Introduce el número de películas que vas a almacenar:");
+		System.out.println("Introduce el número de películas que vas a guardar:");
 
 		nPelis = scan.nextInt();
 

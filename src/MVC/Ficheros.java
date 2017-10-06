@@ -1,4 +1,4 @@
-package pq;
+package MVC;
 
 import java.io.*;
 import java.util.HashMap;
@@ -17,15 +17,15 @@ public class Ficheros {
 	public HashMap<String, String> escribirFichero(HashMap<String, String> mapa) {
 
 		try {
-			entrada = new FileInputStream("configFichero.properties");
+			entrada = new FileInputStream("FicheroConfiguracion.properties");
 		} catch (FileNotFoundException e3) {
-			// TODO Auto-generated catch block
+
 			e3.printStackTrace();
 		}
 		try {
 			propiedades.load(entrada);
 		} catch (IOException e1) {
-			// TODO Auto-generated catch block
+
 			e1.printStackTrace();
 		}
 		String titulo;
@@ -61,7 +61,7 @@ public class Ficheros {
 		HashMap<String, String> mapa = new HashMap<String, String>();
 
 		try {
-			entrada = new FileInputStream("configFichero.properties");
+			entrada = new FileInputStream("FicheroConfiguracion.properties");
 			propiedades.load(entrada);
 			fichero = new File(propiedades.getProperty("ruta"));
 			fr = new FileReader(fichero);
