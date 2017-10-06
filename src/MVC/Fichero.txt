@@ -1,1 +1,6 @@
-Alicia en el pais de las maravillas;nisu
+Dori;GEorge
+Gladiator;David
+nemo;dori
+El Padrino;david
+Nemo;GeorgeLucas
+Hulk;Luis

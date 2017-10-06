@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.HashMap;
 import java.util.Properties;
 
-public class Ficheros {
+public class Controlador {
 
 	File fichero = null;
 	FileReader fr = null;

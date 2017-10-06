@@ -2,12 +2,12 @@ package MVC;
 
 import java.util.*;
 
-public class Main {
+public class Modelo {
 
 	public static void main(String[] args) {
 
-		Ficheros fichero = new Ficheros();
-		TecladoPantalla tecladoPantalla = new TecladoPantalla();
+		Controlador fichero = new Controlador();
+		Vista tecladoPantalla = new Vista();
 		BBDD baseDatos = new BBDD();
 		Scanner scan = new Scanner(System.in);
 
